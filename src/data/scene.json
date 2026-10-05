@@ -1,0 +1,382 @@
+{
+  "car": {
+    "width": 1672,
+    "height": 941,
+    "states": {
+      "reveal": {
+        "matrix": [
+          1.00001,
+          6e-05,
+          -6e-05,
+          1.00001,
+          -0.02946,
+          -0.35467
+        ],
+        "scale": 1.00001,
+        "rotation_deg": 0.003,
+        "matches": 442,
+        "inliers": 413,
+        "offset_px": 0.36
+      },
+      "scan": {
+        "matrix": [
+          0.99949,
+          5e-05,
+          -5e-05,
+          0.99949,
+          0.527,
+          0.17089
+        ],
+        "scale": 0.99949,
+        "rotation_deg": 0.003,
+        "matches": 884,
+        "inliers": 832,
+        "offset_px": 0.55
+      },
+      "wireframe": {
+        "matrix": [
+          0.99974,
+          -4e-05,
+          4e-05,
+          0.99974,
+          0.4292,
+          -0.064
+        ],
+        "scale": 0.99974,
+        "rotation_deg": -0.002,
+        "matches": 310,
+        "inliers": 274,
+        "offset_px": 0.43
+      },
+      "cutaway": {
+        "matrix": [
+          0.99993,
+          3e-05,
+          -3e-05,
+          0.99993,
+          0.32305,
+          -0.11278
+        ],
+        "scale": 0.99993,
+        "rotation_deg": 0.002,
+        "matches": 877,
+        "inliers": 848,
+        "offset_px": 0.34
+      },
+      "cutout": {
+        "matrix": [
+          0.99947,
+          5e-05,
+          -5e-05,
+          0.99947,
+          -0.44704,
+          -0.10361
+        ],
+        "scale": 0.99947,
+        "rotation_deg": 0.003,
+        "matches": 445,
+        "inliers": 417,
+        "offset_px": 0.46
+      }
+    },
+    "note": "All states sit within about a pixel of hero-desktop, so the scene uses one frame for all of them.",
+    "box": [
+      138,
+      249,
+      1577,
+      799
+    ],
+    "focus": {
+      "headlight": [
+        690,
+        505
+      ],
+      "front_wheel": [
+        918,
+        640
+      ],
+      "engine": {
+        "box": [
+          330,
+          425,
+          620,
+          615
+        ],
+        "note": "engine block under the bonnet of carro-cutaway.png"
+      }
+    }
+  },
+  "scan": {
+    "plane": [
+      [
+        1019.2,
+        262
+      ],
+      [
+        994.9,
+        312
+      ],
+      [
+        979.0,
+        363
+      ],
+      [
+        969.7,
+        414
+      ],
+      [
+        965.3,
+        464
+      ],
+      [
+        964.0,
+        515
+      ],
+      [
+        964.3,
+        566
+      ],
+      [
+        964.2,
+        617
+      ],
+      [
+        962.1,
+        667
+      ],
+      [
+        956.3,
+        718
+      ],
+      [
+        945.0,
+        769
+      ],
+      [
+        926.5,
+        820
+      ]
+    ],
+    "core_offset": -12,
+    "samples": 54,
+    "note": "outer edge of the scan plane (glow included); the bright core sits ~12 px to its left. Left of it carro-scan.png is wireframe, right of it it equals the hero."
+  },
+  "engine": {
+    "width": 1536,
+    "height": 1024,
+    "box": [
+      235,
+      44,
+      1337,
+      1017
+    ],
+    "master_box": [
+      388,
+      30,
+      1147,
+      1004
+    ],
+    "master_to_assembled_ratio": 1.4415,
+    "groups": {
+      "base": {
+        "file": "02-animacao/grupo-base-transparente.png",
+        "box": [
+          262,
+          346,
+          1293,
+          994
+        ],
+        "assembled": {
+          "matrix": [
+            0.98094,
+            0.00233,
+            -0.00233,
+            0.98094,
+            21.54505,
+            74.4191
+          ],
+          "scale": 0.98095,
+          "rotation_deg": 0.136,
+          "matches": 488,
+          "inliers": 182
+        },
+        "exploded": {
+          "matrix": [
+            0.71581,
+            0.00214,
+            -0.00214,
+            0.71581,
+            206.15659,
+            288.77162
+          ],
+          "scale": 0.71582,
+          "rotation_deg": 0.171,
+          "matches": 884,
+          "inliers": 690
+        },
+        "centre_assembled": [
+          782.7,
+          733.5
+        ],
+        "centre_master": [
+          761.3,
+          770.0
+        ],
+        "spread": [
+          -50.9,
+          278.2
+        ]
+      },
+      "heads": {
+        "file": "02-animacao/grupo-cabecotes-transparente.png",
+        "box": [
+          141,
+          236,
+          1397,
+          737
+        ],
+        "assembled": {
+          "matrix": [
+            0.89394,
+            0.0041,
+            -0.0041,
+            0.89394,
+            60.77675,
+            85.23037
+          ],
+          "scale": 0.89395,
+          "rotation_deg": 0.263,
+          "matches": 372,
+          "inliers": 85
+        },
+        "exploded": {
+          "matrix": [
+            0.60195,
+            -4e-05,
+            4e-05,
+            0.60195,
+            308.4087,
+            138.38012
+          ],
+          "scale": 0.60195,
+          "rotation_deg": -0.004,
+          "matches": 654,
+          "inliers": 560
+        },
+        "centre_assembled": [
+          746.2,
+          523.3
+        ],
+        "centre_master": [
+          771.3,
+          431.2
+        ],
+        "spread": [
+          0.0,
+          0.0
+        ]
+      },
+      "intake": {
+        "file": "02-animacao/grupo-admissao-transparente.png",
+        "box": [
+          481,
+          30,
+          1096,
+          308
+        ],
+        "assembled": {
+          "matrix": [
+            1.37231,
+            0.0146,
+            -0.0146,
+            1.37231,
+            -300.0906,
+            4.50856
+          ],
+          "scale": 1.37239,
+          "rotation_deg": 0.61,
+          "matches": 254,
+          "inliers": 155
+        },
+        "exploded": {
+          "matrix": [
+            0.93417,
+            6e-05,
+            -6e-05,
+            0.93417,
+            41.62347,
+            1.42289
+          ],
+          "scale": 0.93417,
+          "rotation_deg": 0.003,
+          "matches": 379,
+          "inliers": 362
+        },
+        "centre_assembled": [
+          779.5,
+          247.9
+        ],
+        "centre_master": [
+          778.2,
+          159.3
+        ],
+        "spread": [
+          -23.4,
+          -116.6
+        ]
+      }
+    },
+    "order": [
+      "base",
+      "heads",
+      "intake"
+    ]
+  },
+  "parts": {
+    "brake": {
+      "file": "03-servicos/freio-transparente.png",
+      "box": [
+        327,
+        28,
+        1259,
+        984
+      ]
+    },
+    "filter": {
+      "file": "03-servicos/filtro-transparente.png",
+      "box": [
+        157,
+        38,
+        1426,
+        977
+      ]
+    },
+    "suspension": {
+      "file": "03-servicos/suspensao-transparente.png",
+      "box": [
+        38,
+        27,
+        1500,
+        994
+      ]
+    },
+    "logo": {
+      "file": "05-marca/logo-sta-transparente.png",
+      "box": [
+        65,
+        202,
+        2111,
+        473
+      ]
+    },
+    "monogram": {
+      "file": "05-marca/monograma-sta-transparente.png",
+      "box": [
+        95,
+        410,
+        1141,
+        822
+      ]
+    }
+  }
+}

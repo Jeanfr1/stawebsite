@@ -1,0 +1,288 @@
+[
+  {
+    "arquivo": "01-hero/carro-transparente.png",
+    "uso": "Carro inteiro recortado para composição e parallax",
+    "largura": 1672,
+    "altura": 941,
+    "modo": "RGBA",
+    "bytes": 987045,
+    "sha256": "c2bf351b5bbf92e6967047bd5930c7206ebf04280a0faf0df4b30136f8a3e77e",
+    "transparente": true,
+    "caixa_alpha": [
+      138,
+      249,
+      1577,
+      799
+    ]
+  },
+  {
+    "arquivo": "01-hero/fundo-estudio.png",
+    "uso": "Fundo vazio para transições e composições",
+    "largura": 1672,
+    "altura": 941,
+    "modo": "RGB",
+    "bytes": 1452037,
+    "sha256": "654dff54ad7028a36a0842d9730b2dbb8fed230b7c4273104a40d930344bf2ed",
+    "transparente": false
+  },
+  {
+    "arquivo": "01-hero/hero-desktop.png",
+    "uso": "Hero desktop sem texto, aprovado no conceito",
+    "largura": 1672,
+    "altura": 941,
+    "modo": "RGB",
+    "bytes": 1783570,
+    "sha256": "2b706a330d7eabacbf39b698f13a5c3eee4274678e22bdfd45602bb410ad3085",
+    "transparente": false
+  },
+  {
+    "arquivo": "01-hero/hero-mobile.png",
+    "uso": "Hero vertical para celular",
+    "largura": 940,
+    "altura": 1672,
+    "modo": "RGB",
+    "bytes": 1725940,
+    "sha256": "16b1838a7e0e06a145aca33aee39d74ff1376c673267eacdfdd3d932717a63aa",
+    "transparente": false
+  },
+  {
+    "arquivo": "01-hero/reveal-escuro.png",
+    "uso": "Abertura escura para revelação pela luz",
+    "largura": 1672,
+    "altura": 941,
+    "modo": "RGB",
+    "bytes": 1464224,
+    "sha256": "dcb4b084ba7411b8ce800e48ec7d10674af65126ec85091b08128a261dd45b8d",
+    "transparente": false
+  },
+  {
+    "arquivo": "02-animacao/carro-cutaway.png",
+    "uso": "Estado com engenharia visível dentro da silhueta",
+    "largura": 1672,
+    "altura": 941,
+    "modo": "RGB",
+    "bytes": 2035608,
+    "sha256": "b145c6b9b28e5454e6217191f340396a84d7fde74734f1d74d9e8ba2510283a9",
+    "transparente": false
+  },
+  {
+    "arquivo": "02-animacao/carro-scan.png",
+    "uso": "Estado intermediário do scan da carroceria",
+    "largura": 1672,
+    "altura": 941,
+    "modo": "RGB",
+    "bytes": 1996178,
+    "sha256": "f5ab77135fa5ffc60b0d7f79f03f357710241cd7c140f6a17c8de0def53d6d95",
+    "transparente": false
+  },
+  {
+    "arquivo": "02-animacao/carro-wireframe.png",
+    "uso": "Silhueta técnica para passagem entre exterior e interior",
+    "largura": 1672,
+    "altura": 941,
+    "modo": "RGB",
+    "bytes": 2168908,
+    "sha256": "207b8221ad2842f99b5f25c982fcded743dd2894dc62305e1e60ba12550d7762",
+    "transparente": false
+  },
+  {
+    "arquivo": "02-animacao/grupo-admissao-transparente.png",
+    "uso": "Admissão isolada para a separação por rolagem",
+    "largura": 1536,
+    "altura": 1024,
+    "modo": "RGBA",
+    "bytes": 843753,
+    "sha256": "a98f320e21ebf21c31fff8a11418766e960cb2fd6ca6e08cac6021238aab3d4f",
+    "transparente": true,
+    "caixa_alpha": [
+      481,
+      30,
+      1096,
+      308
+    ]
+  },
+  {
+    "arquivo": "02-animacao/grupo-base-transparente.png",
+    "uso": "Base do motor isolada para a separação por rolagem",
+    "largura": 1536,
+    "altura": 1024,
+    "modo": "RGBA",
+    "bytes": 1715070,
+    "sha256": "5cb94fdec128bc6bdfe05d5837308babe0a40061db750a0859fad3e8af5c3a10",
+    "transparente": true,
+    "caixa_alpha": [
+      262,
+      346,
+      1293,
+      994
+    ]
+  },
+  {
+    "arquivo": "02-animacao/grupo-cabecotes-transparente.png",
+    "uso": "Conjunto dos cabeçotes isolado para a separação por rolagem",
+    "largura": 1536,
+    "altura": 1024,
+    "modo": "RGBA",
+    "bytes": 1731883,
+    "sha256": "2cfbc46c9223cde1680aea4ce27ee86da15243bf861ccc0cb7de10eaa0d243ed",
+    "transparente": true,
+    "caixa_alpha": [
+      141,
+      236,
+      1397,
+      737
+    ]
+  },
+  {
+    "arquivo": "02-animacao/macro-farol.png",
+    "uso": "Macro de farol para a aproximação cinematográfica",
+    "largura": 1672,
+    "altura": 941,
+    "modo": "RGB",
+    "bytes": 2037688,
+    "sha256": "ecdd7d8a361731c0fb2688e6eaf4b31a5217eb75726b7fe98369de6276becb15",
+    "transparente": false
+  },
+  {
+    "arquivo": "02-animacao/motor-explodido.png",
+    "uso": "Motor em três grupos, referência para separação por rolagem",
+    "largura": 1536,
+    "altura": 1024,
+    "modo": "RGBA",
+    "bytes": 2000481,
+    "sha256": "1e3d40aafe486bddfe9ac083239463ee1ee964cff0eb5aca8d12659cb955c427",
+    "transparente": true,
+    "caixa_alpha": [
+      388,
+      30,
+      1147,
+      1004
+    ]
+  },
+  {
+    "arquivo": "02-animacao/motor-montado-transparente.png",
+    "uso": "Motor montado para o início e o encerramento da separação",
+    "largura": 1536,
+    "altura": 1024,
+    "modo": "RGBA",
+    "bytes": 2526371,
+    "sha256": "bb10249b24f267413dd37b756109fe4527a8d3df85c80c37b0ffb7169bf6e843",
+    "transparente": true,
+    "caixa_alpha": [
+      235,
+      44,
+      1337,
+      1017
+    ]
+  },
+  {
+    "arquivo": "03-servicos/filtro-transparente.png",
+    "uso": "Filtro de óleo para Maintenance",
+    "largura": 1536,
+    "altura": 1024,
+    "modo": "RGBA",
+    "bytes": 2404037,
+    "sha256": "173e6f99350fd57f32c30c883758ff121ee6fc7322650d1bd69d46d7ad732375",
+    "transparente": true,
+    "caixa_alpha": [
+      157,
+      38,
+      1426,
+      977
+    ]
+  },
+  {
+    "arquivo": "03-servicos/freio-transparente.png",
+    "uso": "Disco e pinça vermelha para Repairs",
+    "largura": 1536,
+    "altura": 1024,
+    "modo": "RGBA",
+    "bytes": 2146971,
+    "sha256": "19bcb64fc6e9f3a0e4890634282352c76fe1cd8cebc398f57b99827e88b27db4",
+    "transparente": true,
+    "caixa_alpha": [
+      327,
+      28,
+      1259,
+      984
+    ]
+  },
+  {
+    "arquivo": "03-servicos/suspensao-transparente.png",
+    "uso": "Amortecedor e mola para imagem de reparos",
+    "largura": 1536,
+    "altura": 1024,
+    "modo": "RGBA",
+    "bytes": 1625075,
+    "sha256": "5fe8887b97ac47cc9c74f598c919702e930dca2add8e61aa0496372f6860dc6a",
+    "transparente": true,
+    "caixa_alpha": [
+      38,
+      27,
+      1500,
+      994
+    ]
+  },
+  {
+    "arquivo": "04-secoes/carro-contato.png",
+    "uso": "Imagem de encerramento e contato",
+    "largura": 1672,
+    "altura": 941,
+    "modo": "RGB",
+    "bytes": 1779008,
+    "sha256": "3f4669053a6066498c9fd8a7ffdad1e48b6dc376d40ff9f6f07998f82784ce4a",
+    "transparente": false
+  },
+  {
+    "arquivo": "04-secoes/diagnostico-tablet.png",
+    "uso": "Imagem humana para Our approach e diagnóstico",
+    "largura": 1672,
+    "altura": 941,
+    "modo": "RGB",
+    "bytes": 1787295,
+    "sha256": "d4ddfcda47e8ccc189c01583b6664d3109bcb16f1ac0b8d3e977c2d9901b40f5",
+    "transparente": false
+  },
+  {
+    "arquivo": "04-secoes/precisao-mecanico.png",
+    "uso": "Detalhe de trabalho para People and craft",
+    "largura": 1672,
+    "altura": 941,
+    "modo": "RGB",
+    "bytes": 1949961,
+    "sha256": "29b693a0bd4787d9f2ce237c2f1a494cd8be26f6ee37e046bcaf2d0c7633bfb4",
+    "transparente": false
+  },
+  {
+    "arquivo": "05-marca/logo-sta-transparente.png",
+    "uso": "Logo STA aprovado em PNG transparente",
+    "largura": 2172,
+    "altura": 724,
+    "modo": "RGBA",
+    "bytes": 320662,
+    "sha256": "a7ed99889a0a743b6e121a6be8b65125694bd20da3a7d7d90f97931096f7c72c",
+    "transparente": true,
+    "caixa_alpha": [
+      65,
+      202,
+      2111,
+      473
+    ]
+  },
+  {
+    "arquivo": "05-marca/monograma-sta-transparente.png",
+    "uso": "Monograma STA isolado para transições e marca",
+    "largura": 1254,
+    "altura": 1254,
+    "modo": "RGBA",
+    "bytes": 275645,
+    "sha256": "e9df4630ba0229998e282eb6f49e0b0a7769b3b1a2de94137fb4f046b8ec8164",
+    "transparente": true,
+    "caixa_alpha": [
+      95,
+      410,
+      1141,
+      822
+    ]
+  }
+]

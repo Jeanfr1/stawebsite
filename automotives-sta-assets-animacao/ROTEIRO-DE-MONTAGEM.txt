@@ -1,0 +1,189 @@
+AUTOMOTIVES STA LIMITED - BENEATH THE EXTRAORDINARY
+KIT DE IMAGENS DE PRODUÇÃO / ANIMAÇÃO E SEÇÕES
+
+COMECE AQUI
+Extraia o ZIP e abra catalogo.html. Clique na imagem para abrir o original.
+22 PNGs de produção organizados por função; dois arquivos de referência
+do conceito escolhido em pasta própria. As fotos estão sem títulos, CTAs
+ou navegação incorporados. Logo e monograma são as imagens de marca.
+Resoluções nativas, modo, transparência e caixa_alpha estão no manifesto.
+
+PASTAS
+01-hero: abertura, celular, reveal, carro recortado e fundo de composição.
+02-animacao: scan, wireframe, cutaway, macro e motor em estados/camadas.
+03-servicos: freio, filtro e suspensão recortados.
+04-secoes: diagnóstico, trabalho do mecânico e carro para contato.
+05-marca: logo e monograma STA transparentes.
+06-referencias: layout escolhido e storyboard; orientação, não fotos de seção.
+07-integracao: sequência por progresso, configuração de contato e exemplo HTML.
+               Inclui registro inicial das três camadas do motor.
+
+ARQUIVOS E FUNÇÕES
+
+01-hero/carro-transparente.png
+  Carro inteiro recortado para composição e parallax
+  1672 x 941 px; PNG com alpha transparente
+
+01-hero/fundo-estudio.png
+  Fundo vazio para transições e composições
+  1672 x 941 px; PNG de cena
+
+01-hero/hero-desktop.png
+  Hero desktop sem texto, aprovado no conceito
+  1672 x 941 px; PNG de cena
+
+01-hero/hero-mobile.png
+  Hero vertical para celular
+  940 x 1672 px; PNG de cena
+
+01-hero/reveal-escuro.png
+  Abertura escura para revelação pela luz
+  1672 x 941 px; PNG de cena
+
+02-animacao/carro-cutaway.png
+  Estado com engenharia visível dentro da silhueta
+  1672 x 941 px; PNG de cena
+
+02-animacao/carro-scan.png
+  Estado intermediário do scan da carroceria
+  1672 x 941 px; PNG de cena
+
+02-animacao/carro-wireframe.png
+  Silhueta técnica para passagem entre exterior e interior
+  1672 x 941 px; PNG de cena
+
+02-animacao/grupo-admissao-transparente.png
+  Admissão isolada para a separação por rolagem
+  1536 x 1024 px; PNG com alpha transparente
+
+02-animacao/grupo-base-transparente.png
+  Base do motor isolada para a separação por rolagem
+  1536 x 1024 px; PNG com alpha transparente
+
+02-animacao/grupo-cabecotes-transparente.png
+  Conjunto dos cabeçotes isolado para a separação por rolagem
+  1536 x 1024 px; PNG com alpha transparente
+
+02-animacao/macro-farol.png
+  Macro de farol para a aproximação cinematográfica
+  1672 x 941 px; PNG de cena
+
+02-animacao/motor-explodido.png
+  Motor em três grupos, referência para separação por rolagem
+  1536 x 1024 px; PNG com alpha transparente
+
+02-animacao/motor-montado-transparente.png
+  Motor montado para o início e o encerramento da separação
+  1536 x 1024 px; PNG com alpha transparente
+
+03-servicos/filtro-transparente.png
+  Filtro de óleo para Maintenance
+  1536 x 1024 px; PNG com alpha transparente
+
+03-servicos/freio-transparente.png
+  Disco e pinça vermelha para Repairs
+  1536 x 1024 px; PNG com alpha transparente
+
+03-servicos/suspensao-transparente.png
+  Amortecedor e mola para imagem de reparos
+  1536 x 1024 px; PNG com alpha transparente
+
+04-secoes/carro-contato.png
+  Imagem de encerramento e contato
+  1672 x 941 px; PNG de cena
+
+04-secoes/diagnostico-tablet.png
+  Imagem humana para Our approach e diagnóstico
+  1672 x 941 px; PNG de cena
+
+04-secoes/precisao-mecanico.png
+  Detalhe de trabalho para People and craft
+  1672 x 941 px; PNG de cena
+
+05-marca/logo-sta-transparente.png
+  Logo STA aprovado em PNG transparente
+  2172 x 724 px; PNG com alpha transparente
+
+05-marca/monograma-sta-transparente.png
+  Monograma STA isolado para transições e marca
+  1254 x 1254 px; PNG com alpha transparente
+
+MONTAGEM DO HERO
+0-14%: reveal-escuro sobre hero-desktop. A luz revela o carro pelo crossfade.
+14-32%: carro-scan entra por máscara. Uma linha CSS/SVG pode reforçar o scan.
+32-48%: wireframe e cutaway mostram a passagem ao interior. O macro do farol
+        pode servir ao match-cut, com zoom curto e transição ao motor.
+48-66%: motor montado entra sobre fundo-estudio. Mudar para os três grupos
+        e separar com transformações controladas. motor-explodido é a
+        referência de disposição das peças. Reunir ao final.
+66-82%: usar o motor montado no cartão Diagnostics, freio em Repairs e
+        filtro em Maintenance. Reduzir escala e coincidir a posição final
+        com o começo dos cartões reais. Títulos e bordas em HTML/CSS.
+82-100%: passar ao diagnóstico com mãos e tablet. Encerrar o Hero e liberar
+         o fluxo da página; manter a linha vermelha como divisor das seções.
+O arquivo sequencia-hero.json registra as faixas e os assets sugeridos.
+São percentuais da rolagem, não uma duração fixa em segundos.
+
+ALINHAMENTO DAS CAMADAS
+Preservar os canvases originais. Não recortar automaticamente cada peça
+para sua área visível antes de alinhar: isso muda a origem da transformação.
+caixa_alpha descreve o objeto visível com limiar de alpha 20 e ajuda no ajuste.
+As peças do motor foram derivadas do master, mas podem variar de escala
+e posição. Calibrar cada grupo pela caixa_alpha e conferir a união visualmente,
+sem presumir correspondência perfeita pixel a pixel ou registro automático.
+registro-motor.json fornece um ajuste inicial por caixas medidas no master.
+Aplicar a matriz com origem 0 0 no canvas base 1536 x 1024 e redimensionar
+o wrapper inteiro; refinar visualmente antes de ligar à rolagem.
+Na reunião, fazer crossfade para motor-montado e usar esse estado como
+imagem final. Ajustar posições/escala antes de ligar movimento à rolagem.
+Os estados do carro preservam a direção visual e pedem ajuste de registro
+no layout para impedir saltos. Evitar cortes secos; usar máscaras/crossfades.
+
+O QUE ESTE KIT PERMITE
+Composição 2D por camadas: deslocamento, escala, opacidade e máscaras.
+São estados visuais e peças, não vídeo nem uma sequência de frames.
+Uma órbita de câmera, rotação real, verso de peças ou deslocamento contínuo
+por dentro do carro exige 3D ou filme renderizado do mesmo modelo.
+Não interpolar esses PNGs como se fossem frames consecutivos de um filme.
+O wireframe e a disposição dos sistemas são arte conceitual de campanha,
+não um desenho técnico específico nem instrução de reparo.
+
+SEÇÕES
+Services: motor montado, freio e filtro nos três cartões principais.
+          Suspensão é imagem adicional para detalhar reparos confirmados.
+Our approach: diagnostico-tablet, com texto no espaço escuro à esquerda.
+People and craft: precisao-mecanico; preservar a mão e a ferramenta.
+Contact: carro-contato à esquerda e copy/CTA à direita.
+Transições: fundo-estudio e carro-transparente permitem composição por camadas.
+Reviews: bloco em HTML com dados e depoimentos reais; imagens não trazem
+         números de avaliações que possam ficar desatualizados.
+Equipe/instalações: usar fotos reais autorizadas quando a seção representar
+                   a empresa, seus profissionais ou serviços documentais.
+
+CONTEÚDO DO SITE
+Título proposto: Extraordinary care.
+Apoio: Car repairs. Diagnostics. Maintenance.
+Categorias base: Diagnostics / Repairs / Maintenance.
+Detalhes de serviços e especializações devem refletir o catálogo da empresa.
+As peças ilustram as categorias; motor na arte não significa oferta de
+reconstrução de motor. Carro de luxo não significa atendimento exclusivo.
+Telefone fornecido: +44 7806 966777; Call us usa tel:+447806966777.
+Get a quote vai ao contato. O exemplo HTML leva ao telefone, não simula
+um formulário enviado. Não há agendamento online fornecido para esta empresa.
+Endereço do briefing: 4-6 Spicer St, St Albans AL3 4PQ, United Kingdom.
+Definir atendimento nesse endereço e cobertura móvel para o conteúdo final.
+
+CELULAR E DESEMPENHO
+Usar hero-mobile em telas estreitas. Manter CTA disponível desde a abertura.
+Reduzir número de camadas simultâneas e encurtar a passagem ao motor.
+Com prefers-reduced-motion, mostrar carro estático e serviços diretamente.
+Carregar o Hero primeiro e demais recursos sob demanda. O pipeline do site
+pode gerar WebP/AVIF mantendo estes PNGs originais como fonte de produção.
+
+MARCA E ARQUIVOS
+Logo e monograma têm alpha real; quadriculado do catálogo não está nos PNGs.
+Cor de base #08090B, branco #F4F3EF, prata #ADB4BC, vermelho #E63B32.
+Azul frio só no scan. A marca entregue é raster PNG, não vetor.
+Imagens geradas por ferramenta integrada; prompts completos na pasta raiz.
+Fotografias de campanha conceituais: não são o espaço, equipe ou clientes
+reais da empresa. Arquivos originais mantidos sem edição raster posterior.

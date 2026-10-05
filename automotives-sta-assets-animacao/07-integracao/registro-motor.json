@@ -1,0 +1,90 @@
+{
+  "canvas_base": [
+    1536,
+    1024
+  ],
+  "master": "02-animacao/motor-explodido.png",
+  "metodo": "Ajuste por caixas alpha das três massas principais do master e das peças isoladas",
+  "uso": "Matriz aplicada em pixels do canvas base, com origem 0 0; redimensionar o wrapper como um todo",
+  "limite": "Registro inicial aproximado por caixa; refinar visualmente. Não garante igualdade pixel a pixel.",
+  "camadas": [
+    {
+      "arquivo": "02-animacao/grupo-admissao-transparente.png",
+      "caixa_origem": [
+        481,
+        30,
+        1096,
+        308
+      ],
+      "caixa_destino_master": [
+        491,
+        30,
+        1066,
+        289
+      ],
+      "escala_uniforme": 0.931655,
+      "translacao_x_px": 43.8903,
+      "translacao_y_px": 2.0504,
+      "matriz_css": [
+        0.931655,
+        0,
+        0,
+        0.931655,
+        43.8903,
+        2.0504
+      ]
+    },
+    {
+      "arquivo": "02-animacao/grupo-cabecotes-transparente.png",
+      "caixa_origem": [
+        141,
+        236,
+        1397,
+        737
+      ],
+      "caixa_destino_master": [
+        388,
+        281,
+        1147,
+        581
+      ],
+      "escala_uniforme": 0.598802,
+      "translacao_x_px": 307.021,
+      "translacao_y_px": 139.6826,
+      "matriz_css": [
+        0.598802,
+        0,
+        0,
+        0.598802,
+        307.021,
+        139.6826
+      ]
+    },
+    {
+      "arquivo": "02-animacao/grupo-base-transparente.png",
+      "caixa_origem": [
+        262,
+        346,
+        1293,
+        994
+      ],
+      "caixa_destino_master": [
+        395,
+        540,
+        1128,
+        1004
+      ],
+      "escala_uniforme": 0.71096,
+      "translacao_x_px": 208.7284,
+      "translacao_y_px": 295.6566,
+      "matriz_css": [
+        0.71096,
+        0,
+        0,
+        0.71096,
+        208.7284,
+        295.6566
+      ]
+    }
+  ]
+}

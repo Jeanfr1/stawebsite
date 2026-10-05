@@ -1,0 +1,159 @@
+{
+  "metodo": "Geração e edição com ferramenta integrada de imagens; originais sem alteração raster posterior",
+  "imagens": [
+    {
+      "key": "car-cutout",
+      "file": "01-hero/carro-transparente.png",
+      "role": "Carro inteiro recortado para composição e parallax",
+      "transparent": true,
+      "prompt": "Use case: precise-object-edit. Edit reference image1, the clean hero car scene. Preserve EXACT same unbranded graphite-silver luxury coupe, headlight design, grille, wheels, red calipers, camera/lens, floor, lights and proportions. No automaker badges, text, labels, UI, titles, buttons, watermarks, or extra cars. Remove ONLY background, floor, cast shadow and reflection to genuine transparent alpha. Preserve entire exact car in original wide16:9 canvas at same scale/position. Maintain wheels, windows and natural paint reflections. No mist, glow, ambient halo, shadow or floating blueprint."
+    },
+    {
+      "key": "background",
+      "file": "01-hero/fundo-estudio.png",
+      "role": "Fundo vazio para transições e composições",
+      "transparent": false,
+      "prompt": "Use case: precise-object-edit. Edit reference image1, the clean hero car scene. Preserve EXACT same unbranded graphite-silver luxury coupe, headlight design, grille, wheels, red calipers, camera/lens, floor, lights and proportions. No automaker badges, text, labels, UI, titles, buttons, watermarks, or extra cars. Remove the entire car, all wireframes and all other objects. Keep ONLY empty near-black studio environment and subtle dark charcoal floor, a faint vermilion red reflected streak along bottom-right, platinum horizontal soft light falloff. Wide16:9, mostly black negative space, elegant studio plate suitable for compositing isolated car and mechanical components."
+    },
+    {
+      "key": "hero-desktop",
+      "file": "01-hero/hero-desktop.png",
+      "role": "Hero desktop sem texto, aprovado no conceito",
+      "transparent": false,
+      "prompt": "Use case: ads-marketing. Extract and recompose the HERO car scene from the reference into a clean stand-alone cinematic website production image with absolutely NO website UI, no text, logo, badge, blueprint, scan, wireframe, buttons, or labels. Preserve the same graphite-silver long-bonnet elegant unbranded coupe and sophisticated sculptural reflections. Entire car beautifully opaque intact, low front three-quarter view, near front wheel left, headlights off or subtlecoolwhite. Luxury editorial automotive studio photography, black void background, very dark matte charcoal floor with restrained realisticreflection, one extremely subtle vermilion red line reflection under rocker. Large negative space in upper-left quarter and above roof for later HTML headline. Car lower two-thirds, entirely inside wide16:9 frame, deliberate margins, no parts cropped. Fine materialdetail, natural realistic proportions, no fogclouds. Completely remove automaker branding from grille, bonnet, wheelcenters."
+    },
+    {
+      "key": "hero-mobile",
+      "file": "01-hero/hero-mobile.png",
+      "role": "Hero vertical para celular",
+      "transparent": false,
+      "prompt": "Use case: precise-object-edit. Edit reference image1, the clean hero car scene. Preserve EXACT same unbranded graphite-silver luxury coupe, headlight design, grille, wheels, red calipers, camera/lens, floor, lights and proportions. No automaker badges, text, labels, UI, titles, buttons, watermarks, or extra cars. Recompose in portrait9:16 for smartphone hero. Whole car remains intact and entirely visible in lower two-thirds, only modest perspective change if necessary. Upper third almost black negative space for HTML headline. Keep the coupe long-bonnet sculptural identity; do not turn it into a sedan or SUV."
+    },
+    {
+      "key": "hero-dark",
+      "file": "01-hero/reveal-escuro.png",
+      "role": "Abertura escura para revelação pela luz",
+      "transparent": false,
+      "prompt": "Use case: precise-object-edit. Edit reference image1, the clean hero car scene. Preserve EXACT same unbranded graphite-silver luxury coupe, headlight design, grille, wheels, red calipers, camera/lens, floor, lights and proportions. No automaker badges, text, labels, UI, titles, buttons, watermarks, or extra cars. Change ONLY illumination. Same wide16:9 composition and exact car placement. Dramatic nearly dark introductory state: front lamps OFF, reveal only slim platinum rim on roof, hood edge and front wheel, tiny dim red rocker reflection. Car silhouette still discernible, no completely black indistinct image. Keep all geometry unchanged so it can dissolve into original fully lit reference."
+    },
+    {
+      "key": "cutaway",
+      "file": "02-animacao/carro-cutaway.png",
+      "role": "Estado com engenharia visível dentro da silhueta",
+      "transparent": false,
+      "prompt": "Use case: precise-object-edit. Edit reference image1, the clean hero car scene. Preserve EXACT same unbranded graphite-silver luxury coupe, headlight design, grille, wheels, red calipers, camera/lens, floor, lights and proportions. No automaker badges, text, labels, UI, titles, buttons, watermarks, or extra cars. Keep same wide16:9 camera framing and car placement. Replace most body surfaces with softly translucent graphite and thin platinum wireframe, leaving exact outer silhouette, headlights and original tires aligned. Show compact engine beneath long bonnet, drivetrain low through center tunnel and suspension at actual wheels, all contained INSIDE vehicle body and logically positioned. No giant motor outside hood, no detached floating brake, no annotations or HUD, no scan line. Existing studio floor/reflections retained, refined clean engineering visual."
+    },
+    {
+      "key": "scan",
+      "file": "02-animacao/carro-scan.png",
+      "role": "Estado intermediário do scan da carroceria",
+      "transparent": false,
+      "prompt": "Use case: precise-object-edit. Edit reference image1, the clean hero car scene. Preserve EXACT same unbranded graphite-silver luxury coupe, headlight design, grille, wheels, red calipers, camera/lens, floor, lights and proportions. No automaker badges, text, labels, UI, titles, buttons, watermarks, or extra cars. Keep same wide16:9 canvas, camera and exact car placement. A slender restrained icy white diagnostic scan plane through the center of the front wheel / fender. LEFT of scan car front body becomes delicate pale blue wireframe with mechanical details inside aligned with its existing silhouette, RIGHT of scan car remains opaque reflective graphite. Conceptual marketing cutaway, exact original car silhouette, no arbitrary floating parts, no measurement text, sparse clean lines. Background unchanged."
+    },
+    {
+      "key": "wireframe",
+      "file": "02-animacao/carro-wireframe.png",
+      "role": "Silhueta técnica para passagem entre exterior e interior",
+      "transparent": false,
+      "prompt": "Use case: precise-object-edit. Edit reference image1, the clean hero car scene. Preserve EXACT same unbranded graphite-silver luxury coupe, headlight design, grille, wheels, red calipers, camera/lens, floor, lights and proportions. No automaker badges, text, labels, UI, titles, buttons, watermarks, or extra cars. Keep original wide16:9 canvas, camera and car placement. Turn ONLY car surfaces into an elegant sparse thin white wireframe on the same near-black studio background. Outline body panels, wheel circles, grille, headlight and glass; do not show engine or internal parts. No opaque body paint, no coordinates or labels. Car remains unmistakably identical in silhouette and perspective. Faint red floorreflection as original, professional architectural line precision."
+    },
+    {
+      "key": "engine-intake",
+      "file": "02-animacao/grupo-admissao-transparente.png",
+      "role": "Admissão isolada para a separação por rolagem",
+      "transparent": true,
+      "prompt": "Use case: precise-object-edit. Edit the referenced exploded engine production asset. Preserve exactly its dark aluminum, machined silver, black rubber, lighting, materials, fine detail and fixed front-left three-quarter perspective. Genuine transparent alpha PNG, no background, shadow, reflection, glow, mist, wireframe, text, logos or added objects. Keep ONLY the UPPERMOST intake manifold assembly including its throttle opening, curved black runners, connected hoses, silver rail and tiny red connector. Remove middle heads and lower block completely. Keep exact original scale, angle and position on SAME original1536x1024 landscape canvas. All other pixels clear transparent, no reframe/enlarge."
+    },
+    {
+      "key": "engine-base",
+      "file": "02-animacao/grupo-base-transparente.png",
+      "role": "Base do motor isolada para a separação por rolagem",
+      "transparent": true,
+      "prompt": "Use case: precise-object-edit. Edit the referenced exploded engine production asset. Preserve exactly its dark aluminum, machined silver, black rubber, lighting, materials, fine detail and fixed front-left three-quarter perspective. Genuine transparent alpha PNG, no background, shadow, reflection, glow, mist, wireframe, text, logos or added objects. Keep ONLY the entire LOWEST short-block / crankcase group including its front pulleys and all connected fittings. Remove the middle cylinder-head group and top intake manifold completely. Keep bottom group at exact original scale, position and orientation on the SAME original1536x1024 landscape canvas. All other pixels clear transparent. Do not reframe or enlarge."
+    },
+    {
+      "key": "engine-heads",
+      "file": "02-animacao/grupo-cabecotes-transparente.png",
+      "role": "Conjunto dos cabeçotes isolado para a separação por rolagem",
+      "transparent": true,
+      "prompt": "Use case: precise-object-edit. Edit the referenced exploded engine production asset. Preserve exactly its dark aluminum, machined silver, black rubber, lighting, materials, fine detail and fixed front-left three-quarter perspective. Genuine transparent alpha PNG, no background, shadow, reflection, glow, mist, wireframe, text, logos or added objects. Keep ONLY BOTH cylinder-head assemblies in the MIDDLE group, including their valve covers and connected fittings. They remain together as one paired group, exactly positioned as reference. Remove top intake and lowest block completely. Keep original scale, angle and position on SAME original1536x1024 landscape canvas. All other pixels clear transparent, no reframe/enlarge."
+    },
+    {
+      "key": "headlight-macro",
+      "file": "02-animacao/macro-farol.png",
+      "role": "Macro de farol para a aproximação cinematográfica",
+      "transparent": false,
+      "prompt": "Use case: precise-object-edit. Edit reference image1, the clean hero car scene. Preserve EXACT same unbranded graphite-silver luxury coupe, headlight design, grille, wheels, red calipers, camera/lens, floor, lights and proportions. No automaker badges, text, labels, UI, titles, buttons, watermarks, or extra cars. Create a cinematic tight macro of this SAME car's front headlight and adjacent graphite fender curvature. Move camera toward lamp, show platinum reflections and crisp LED optical detail, dark glossy paint, shallow depth of field. Wide16:9 frame, no wireframe, no scan, no extra ornament, refined chrome lamp internals. Keep the exact headlight identity from reference."
+    },
+    {
+      "key": "engine-exploded",
+      "file": "02-animacao/motor-explodido.png",
+      "role": "Motor em três grupos, referência para separação por rolagem",
+      "transparent": true,
+      "prompt": "Use case: product-mockup. A production PNG for the Automotives STA cinematic scroll animation. References show the chosen dark platinum red automotive design and mechanical aesthetic. Generate ONE modern unbranded gasoline V6 engine in a CONTROLLED EXPLODED arrangement with EXACTLY THREE separated vertical groups on a landscape1536x1024 canvas. Lower group: assembled short block including crankcase, cylinders and front pulleys, compact realistic metal. Middle group: paired cylinder-head assemblies with their dark charcoal valve covers, presented together as one grouped plane. Upper group: silver/charcoal intake manifold assembly. Groups all share same fixed front-left three-quarter view, same scale, aligned centered vertical axis, genuine gaps between all three with no overlapping group silhouettes. At least8 percent clear margin around all objects. Immaculate dark cast aluminum, brushed platinum, restrained black hoses, one tiny vermilion connector. Clean photorealistic studio product lighting, no sci-fi debris, no wireframe or lines, no text, logos, labels, extra bolts floating around. Genuine transparent alpha PNG, no black backdrop, ground, reflection, shadow, mist, glow or haze. This is conceptual marketing artwork, not a labeled technical diagram. Show all groups entirely visible, distinct and easily removable individually."
+    },
+    {
+      "key": "engine-assembled",
+      "file": "02-animacao/motor-montado-transparente.png",
+      "role": "Motor montado para o início e o encerramento da separação",
+      "transparent": true,
+      "prompt": "Use case: precise-object-edit. Edit the referenced exploded engine production asset. Preserve exactly its dark aluminum, machined silver, black rubber, lighting, materials, fine detail and fixed front-left three-quarter perspective. Genuine transparent alpha PNG, no background, shadow, reflection, glow, mist, wireframe, text, logos or added objects. Physically REASSEMBLE all these exact three groups into ONE compact coherent complete engine. BOTH middle cylinder heads sit flush and bolted onto their respective banks of the lowest V block; top intake manifold sits securely BETWEEN/ABOVE the two heads and connects to intake ports. Zero air gaps at the mating surfaces. No floating manifold, no detached head, no exposed disconnected group. Maintain exact same engine identity, parts and materials, no new cylinders or engine family. Fixed same three-quarter angle, entire assembled unit centered inside landscape1536x1024 canvas with10 percent transparent margin. One connected plausible complete engine."
+    },
+    {
+      "key": "filter",
+      "file": "03-servicos/filtro-transparente.png",
+      "role": "Filtro de óleo para Maintenance",
+      "transparent": true,
+      "prompt": "Use case: product-mockup. Production asset for Automotives STA, matching references' photorealistic precision mechanics, matte graphite, brushed platinum and black rubber, tiny controlled vermilion accents. No text, logos, labels, wires as decoration, blueprint, arrows, UI, collage, fog or glow. Entire subject inside landscape1536x1024 frame with comfortable margins. ONE black pleated oil filter cartridge with polished silver caps, diagonal front-left three-quarter view, entire individual filter visible and large. Not a beer can or cosmetic bottle. Genuine transparent background, no floor, reflection, cast shadow or ambient halo. No wrench or extra tool."
+    },
+    {
+      "key": "brakes",
+      "file": "03-servicos/freio-transparente.png",
+      "role": "Disco e pinça vermelha para Repairs",
+      "transparent": true,
+      "prompt": "Use case: product-mockup. Production asset for Automotives STA, matching references' photorealistic precision mechanics, matte graphite, brushed platinum and black rubber, tiny controlled vermilion accents. No text, logos, labels, wires as decoration, blueprint, arrows, UI, collage, fog or glow. Entire subject inside landscape1536x1024 frame with comfortable margins. ONE complete coherent brake assembly, perforated silver rotor with VERMILION red caliper fixed at its right edge, visible front-left three-quarter view. Caliper and disc physically properly attached as one assembly. Clean true transparent background, no cast shadow, floor reflection, ambient halo or detached extras."
+    },
+    {
+      "key": "suspension",
+      "file": "03-servicos/suspensao-transparente.png",
+      "role": "Amortecedor e mola para imagem de reparos",
+      "transparent": true,
+      "prompt": "Use case: product-mockup. Production asset for Automotives STA, matching references' photorealistic precision mechanics, matte graphite, brushed platinum and black rubber, tiny controlled vermilion accents. No text, logos, labels, wires as decoration, blueprint, arrows, UI, collage, fog or glow. Entire subject inside landscape1536x1024 frame with comfortable margins. ONE coherent vehicle suspension strut assembly, steel damper and black helical coil spring, two mounting points, slight diagonal front-left three-quarter view, entire unit visible. Restrained red collar. Genuine transparent background, no floor, reflection, cast shadow or ambient halo. No floating bolts or detached parts."
+    },
+    {
+      "key": "rear-contact",
+      "file": "04-secoes/carro-contato.png",
+      "role": "Imagem de encerramento e contato",
+      "transparent": false,
+      "prompt": "Use case: ads-marketing. Standalone cinematic website section photograph for Automotives STA. Reference scene provides materials, platinum/graphite color palette and restrained vermilion accent. Photorealistic human craftsmanship, fine believable details. No staff face, company logo, text, UI, titles, buttons, pricing, watermark, illegible screen paragraphs or fake scan values. Wide16:9 frame with useful negative space, no collage. Same unbranded graphite-silver long-bonnet coupe from reference, show a rear three-quarter view on LEFT two-thirds of wide16:9 studio frame. Same sculptural fenders, realistic red taillights, dark reflective floor, subtle vermilion reflection. Right third nearly black negative space for contact headline. No additional vehicles, no brand emblems or numberplate words. It remains the same coupe, not a SUV or sedan."
+    },
+    {
+      "key": "diagnostic-tablet",
+      "file": "04-secoes/diagnostico-tablet.png",
+      "role": "Imagem humana para Our approach e diagnóstico",
+      "transparent": false,
+      "prompt": "Use case: ads-marketing. Standalone cinematic website section photograph for Automotives STA. Reference scene provides materials, platinum/graphite color palette and restrained vermilion accent. Photorealistic human craftsmanship, fine believable details. No staff face, company logo, text, UI, titles, buttons, pricing, watermark, illegible screen paragraphs or fake scan values. Wide16:9 frame with useful negative space, no collage. Close-up of two naturally proportioned black-nitrile-gloved mechanic hands holding a professional diagnostic tablet on right side, screen displays a simple thin car silhouette and a few clean unlabeled interface blocks, NO words/numbers/fault codes. Background same luxury graphite coupe out of focus and red rim accent, left third mostly dark for copy. Tablet physically held correctly with plausible fingers and hands, no face."
+    },
+    {
+      "key": "craft",
+      "file": "04-secoes/precisao-mecanico.png",
+      "role": "Detalhe de trabalho para People and craft",
+      "transparent": false,
+      "prompt": "Use case: ads-marketing. Standalone cinematic website section photograph for Automotives STA. Reference scene provides materials, platinum/graphite color palette and restrained vermilion accent. Photorealistic human craftsmanship, fine believable details. No staff face, company logo, text, UI, titles, buttons, pricing, watermark, illegible screen paragraphs or fake scan values. Wide16:9 frame with useful negative space, no collage. Close-up real black-nitrile-gloved mechanic hand using a small proper metal socket ratchet on one bolt of a brushed aluminum engine assembly in the right two-thirds. Engine compartment dark and credible, tool touching its fastener, hand plausible five-finger anatomy, soft natural metallic highlights, tiny red workshop rim light. Left third dark copy space. No giant tool, no detached engine levitating."
+    },
+    {
+      "key": "logo",
+      "file": "05-marca/logo-sta-transparente.png",
+      "role": "Logo STA aprovado em PNG transparente",
+      "transparent": true,
+      "prompt": "Use case: logo-brand. Design ONE refined corporate premium logo for \"AUTOMOTIVES STA LIMITED\", a British automotive repair and maintenance company. A bespoke £50K website identity, extremely clean flat vector-like shapes on genuine transparent background, no mockup. Horizontal lockup on landscape canvas. At left create one compact geometric interlocking \"STA\" monogram: engineered precise stroke geometry, custom balanced S, T, A, with the negative space of the A subtly suggesting a piston and connecting rod, and one narrow vermilion red diagonal incision suggesting a precision scan. No obvious clipart wrench or car silhouette, no wheelgear cliché, no badge/shield, no resemblance to Audi/BMW/Tesla/Aston Martin logos. White warm-platinum solid lettering, vermilion #E63B32 accent ONLY one small cut. At right bespoke modern wide uppercase geometric wordmark EXACTLY \"AUTOMOTIVES\" large, second smaller spaced line \"STA LIMITED\". Legibility, optical kerning and understated strength. No gold, chrome effects, gradient, glow, shadow, photograph, paper, texture, enclosing rectangle or black background. Entire logo visible, centered with generous transparent padding. A strong identity reads as precision automotive engineering and trustworthy professional care."
+    },
+    {
+      "key": "monogram",
+      "file": "05-marca/monograma-sta-transparente.png",
+      "role": "Monograma STA isolado para transições e marca",
+      "transparent": true,
+      "prompt": "Use case: background-extraction. Edit the approved Automotives STA logo image. Keep ONLY the existing LEFT STA monogram, including its exact platinum geometric strokes, vermilion diagonal incision and tiny piston cue in A. REMOVE all lettering to its right, including AUTOMOTIVES and STA LIMITED. Preserve the monogram design without redesign, no distress texture, no added mark. Recenter this exact monogram on a square1024x1024 transparent canvas and make it occupy approximately65 percent width, generous transparent padding. Flat solid shapes, clean edges, genuine alpha background, no shadow, glow, outline, black backdrop or ground."
+    }
+  ]
+}

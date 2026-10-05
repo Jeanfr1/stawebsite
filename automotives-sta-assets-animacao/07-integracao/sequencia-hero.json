@@ -1,0 +1,82 @@
+{
+  "controle": "Progresso da rolagem de 0 a 100, não segundos",
+  "natureza": "Direção de montagem por camadas 2D; não contém vídeo, frames sequenciais ou 3D",
+  "etapas": [
+    {
+      "etapa": "Reveal",
+      "progresso": [
+        0,
+        14
+      ],
+      "imagens": [
+        "01-hero/reveal-escuro.png",
+        "01-hero/hero-desktop.png"
+      ],
+      "acao": "Revelar pela luz com crossfade; texto e CTA em HTML."
+    },
+    {
+      "etapa": "Scan",
+      "progresso": [
+        14,
+        32
+      ],
+      "imagens": [
+        "02-animacao/carro-scan.png",
+        "02-animacao/carro-wireframe.png"
+      ],
+      "acao": "Máscara e crossfade entre estados alinhados visualmente."
+    },
+    {
+      "etapa": "Inside",
+      "progresso": [
+        32,
+        48
+      ],
+      "imagens": [
+        "02-animacao/carro-cutaway.png",
+        "02-animacao/macro-farol.png"
+      ],
+      "acao": "Revelar o interior; macro opcional para o match-cut de aproximação."
+    },
+    {
+      "etapa": "Engineering",
+      "progresso": [
+        48,
+        66
+      ],
+      "imagens": [
+        "02-animacao/motor-montado-transparente.png",
+        "02-animacao/grupo-base-transparente.png",
+        "02-animacao/grupo-cabecotes-transparente.png",
+        "02-animacao/grupo-admissao-transparente.png"
+      ],
+      "acao": "Transição para motor montado; afastar grupos por deslocamento, depois reunir."
+    },
+    {
+      "etapa": "Services",
+      "progresso": [
+        66,
+        82
+      ],
+      "imagens": [
+        "02-animacao/motor-montado-transparente.png",
+        "03-servicos/freio-transparente.png",
+        "03-servicos/filtro-transparente.png"
+      ],
+      "acao": "Reduzir e posicionar no início dos cartões Diagnostics, Repairs e Maintenance."
+    },
+    {
+      "etapa": "Care",
+      "progresso": [
+        82,
+        100
+      ],
+      "imagens": [
+        "04-secoes/diagnostico-tablet.png",
+        "04-secoes/precisao-mecanico.png",
+        "04-secoes/carro-contato.png"
+      ],
+      "acao": "Devolver foco ao gesto humano e terminar no contato."
+    }
+  ]
+}
